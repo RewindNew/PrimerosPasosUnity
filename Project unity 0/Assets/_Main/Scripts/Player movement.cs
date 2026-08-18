@@ -29,7 +29,7 @@ public class Playermovement : MonoBehaviour
                 Debug.Log("Oprimí la tecla");
             }
         }
-        _rigidbody2D.linearVelocity = Vector2.right * _movementSpeed;
+        _rigidbody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidbody2D.linearVelocity.y);
     }
     private void Update()
     {
