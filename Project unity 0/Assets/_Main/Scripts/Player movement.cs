@@ -24,12 +24,14 @@ public class Playermovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                _rigidbody2D.AddForce(Vector2.up * _jumpForce,ForceMode2D.Force);
+                _rigidbody2D.AddForce(Vector2.up * _jumpForce,ForceMode2D.Impulse);
                 
                 Debug.Log("Oprimí la tecla");
             }
         }
         _rigidbody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidbody2D.linearVelocity.y);
+
+        Debug.Log("velocidad en y: " + _rigidbody2D.linearVelocity.y);
     }
     private void Update()
     {
