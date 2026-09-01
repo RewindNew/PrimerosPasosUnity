@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class DeadlyTrap : MonoBehaviour
 {
-
+    [SerializeField] private PlayerStats _playerStats;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"));
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);
+            _playerStats.RestarVida(); 
         }
     }
 
