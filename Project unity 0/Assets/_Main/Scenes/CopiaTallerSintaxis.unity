@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 7134605}
   - component: {fileID: 7134608}
   - component: {fileID: 7134607}
-  - component: {fileID: 7134606}
+  - component: {fileID: 7134609}
   m_Layer: 0
   m_Name: Cactus C (4)
   m_TagString: Untagged
@@ -153,18 +153,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7134606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7134604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &7134607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -270,6 +258,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &7134609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7134604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &27859353
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,11 +308,10 @@ Transform:
   - {fileID: 919311549}
   - {fileID: 1088939724}
   - {fileID: 422616952}
-  - {fileID: 1171437286}
   - {fileID: 1056265946}
   - {fileID: 1555859975}
-  - {fileID: 709228048}
   - {fileID: 928750750}
+  - {fileID: 709228048}
   - {fileID: 1974489480}
   - {fileID: 1197428869}
   - {fileID: 2030534510}
@@ -351,6 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculomortal
+  _playerStats: {fileID: 0}
 --- !u!1 &30665869
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +727,7 @@ GameObject:
   - component: {fileID: 88086960}
   - component: {fileID: 88086963}
   - component: {fileID: 88086962}
-  - component: {fileID: 88086961}
+  - component: {fileID: 88086964}
   m_Layer: 0
   m_Name: Cactus B (4)
   m_TagString: Untagged
@@ -749,18 +750,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &88086961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88086959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &88086962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -866,6 +855,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &88086964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88086959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &90723932
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +970,7 @@ GameObject:
   - component: {fileID: 92452448}
   - component: {fileID: 92452451}
   - component: {fileID: 92452450}
-  - component: {fileID: 92452449}
+  - component: {fileID: 92452452}
   m_Layer: 0
   m_Name: Cactus C (11)
   m_TagString: Untagged
@@ -991,18 +993,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &92452449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92452447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &92452450
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1108,6 +1098,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &92452452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92452447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &99433052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1260,7 @@ GameObject:
   - component: {fileID: 104939600}
   - component: {fileID: 104939603}
   - component: {fileID: 104939602}
-  - component: {fileID: 104939601}
+  - component: {fileID: 104939604}
   m_Layer: 0
   m_Name: Cactus C (10)
   m_TagString: Untagged
@@ -1280,18 +1283,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &104939601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104939599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &104939602
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1397,6 +1388,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &104939604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104939599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &137322026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,7 +2460,7 @@ GameObject:
   - component: {fileID: 225307837}
   - component: {fileID: 225307840}
   - component: {fileID: 225307839}
-  - component: {fileID: 225307838}
+  - component: {fileID: 225307841}
   m_Layer: 0
   m_Name: Cactus B (5)
   m_TagString: Untagged
@@ -2479,18 +2483,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &225307838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225307836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &225307839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2596,6 +2588,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &225307841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225307836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &227182276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4618,7 +4623,7 @@ GameObject:
   - component: {fileID: 422616952}
   - component: {fileID: 422616955}
   - component: {fileID: 422616954}
-  - component: {fileID: 422616953}
+  - component: {fileID: 422616956}
   m_Layer: 0
   m_Name: Cactus A (2)
   m_TagString: Untagged
@@ -4641,18 +4646,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &422616953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422616951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &422616954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4758,6 +4751,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &422616956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422616951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &442247620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,6 +4915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculomortal
+  _playerStats: {fileID: 0}
 --- !u!1 &461635581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5240,7 +5247,7 @@ GameObject:
   - component: {fileID: 486760790}
   - component: {fileID: 486760793}
   - component: {fileID: 486760792}
-  - component: {fileID: 486760791}
+  - component: {fileID: 486760794}
   m_Layer: 0
   m_Name: Cactus B (2)
   m_TagString: Untagged
@@ -5263,18 +5270,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &486760791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486760789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &486760792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5380,6 +5375,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &486760794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486760789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &550230920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,7 +6635,7 @@ GameObject:
   - component: {fileID: 709228048}
   - component: {fileID: 709228051}
   - component: {fileID: 709228050}
-  - component: {fileID: 709228049}
+  - component: {fileID: 709228052}
   m_Layer: 0
   m_Name: Cactus B (14)
   m_TagString: Untagged
@@ -6650,18 +6658,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &709228049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709228047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &709228050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6767,6 +6763,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &709228052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709228047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &713350207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6778,7 +6787,7 @@ GameObject:
   - component: {fileID: 713350208}
   - component: {fileID: 713350211}
   - component: {fileID: 713350210}
-  - component: {fileID: 713350209}
+  - component: {fileID: 713350212}
   m_Layer: 0
   m_Name: Cactus B (13)
   m_TagString: Untagged
@@ -6801,18 +6810,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &713350209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713350207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &713350210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6918,6 +6915,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &713350212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713350207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &720912520
 GameObject:
   m_ObjectHideFlags: 0
@@ -6929,7 +6939,7 @@ GameObject:
   - component: {fileID: 720912521}
   - component: {fileID: 720912524}
   - component: {fileID: 720912523}
-  - component: {fileID: 720912522}
+  - component: {fileID: 720912525}
   m_Layer: 0
   m_Name: Cactus B (8)
   m_TagString: Untagged
@@ -6952,18 +6962,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &720912522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720912520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &720912523
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7069,6 +7067,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &720912525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720912520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &725175968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,7 +7091,7 @@ GameObject:
   - component: {fileID: 725175969}
   - component: {fileID: 725175972}
   - component: {fileID: 725175971}
-  - component: {fileID: 725175970}
+  - component: {fileID: 725175973}
   m_Layer: 0
   m_Name: Cactus B (6)
   m_TagString: Untagged
@@ -7103,18 +7114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725175970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725175968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &725175971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7220,6 +7219,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &725175973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725175968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &773899027
 GameObject:
   m_ObjectHideFlags: 0
@@ -7413,7 +7425,7 @@ GameObject:
   - component: {fileID: 786144431}
   - component: {fileID: 786144434}
   - component: {fileID: 786144433}
-  - component: {fileID: 786144432}
+  - component: {fileID: 786144435}
   m_Layer: 0
   m_Name: Cactus C (1)
   m_TagString: Untagged
@@ -7436,18 +7448,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &786144432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786144430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &786144433
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7553,6 +7553,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &786144435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786144430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &788999425
 GameObject:
   m_ObjectHideFlags: 0
@@ -7928,7 +7941,7 @@ GameObject:
   - component: {fileID: 806243697}
   - component: {fileID: 806243700}
   - component: {fileID: 806243699}
-  - component: {fileID: 806243698}
+  - component: {fileID: 806243701}
   m_Layer: 0
   m_Name: Cactus B (11)
   m_TagString: Untagged
@@ -7951,18 +7964,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &806243698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806243696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &806243699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8068,6 +8069,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &806243701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806243696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &818150365
 GameObject:
   m_ObjectHideFlags: 0
@@ -8206,6 +8220,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &850147785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850147786}
+  - component: {fileID: 850147788}
+  - component: {fileID: 850147787}
+  m_Layer: 5
+  m_Name: Heart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &850147786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850147785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1812054609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -311, y: -2.0002441}
+  m_SizeDelta: {x: 65, y: 63}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &850147787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850147785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6129407692978914199, guid: ddf1aa167f6f2be4d892e0946ed70976, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &850147788
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850147785}
+  m_CullTransparentMesh: 1
 --- !u!1 &878262398
 GameObject:
   m_ObjectHideFlags: 0
@@ -8490,7 +8579,7 @@ GameObject:
   - component: {fileID: 903219534}
   - component: {fileID: 903219537}
   - component: {fileID: 903219536}
-  - component: {fileID: 903219535}
+  - component: {fileID: 903219538}
   m_Layer: 0
   m_Name: Cactus C (5)
   m_TagString: Untagged
@@ -8513,18 +8602,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &903219535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903219533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &903219536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8630,6 +8707,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &903219538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903219533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &916305167
 GameObject:
   m_ObjectHideFlags: 0
@@ -8834,7 +8924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movimientojugador
   movimientoJugador: {fileID: 0}
-  _fuerzaSalto: 2
+  _fuerzaSalto: 1
   _velocidadMovimiento: 4
   _cuerpoRigido2D: {fileID: 0}
   _detectorSuelo: {fileID: 1595849859}
@@ -8849,7 +8939,7 @@ GameObject:
   - component: {fileID: 919311549}
   - component: {fileID: 919311552}
   - component: {fileID: 919311551}
-  - component: {fileID: 919311550}
+  - component: {fileID: 919311553}
   m_Layer: 0
   m_Name: Cactus A (8)
   m_TagString: Untagged
@@ -8872,18 +8962,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &919311550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919311548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &919311551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8989,6 +9067,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &919311553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919311548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &928750748
 GameObject:
   m_ObjectHideFlags: 0
@@ -9000,7 +9091,7 @@ GameObject:
   - component: {fileID: 928750750}
   - component: {fileID: 928750749}
   - component: {fileID: 928750752}
-  - component: {fileID: 928750751}
+  - component: {fileID: 928750753}
   m_Layer: 0
   m_Name: Cactus C
   m_TagString: Untagged
@@ -9082,18 +9173,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &928750751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928750748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &928750752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9140,6 +9219,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &928750753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928750748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &963099219
 GameObject:
   m_ObjectHideFlags: 0
@@ -9151,7 +9243,7 @@ GameObject:
   - component: {fileID: 963099220}
   - component: {fileID: 963099223}
   - component: {fileID: 963099222}
-  - component: {fileID: 963099221}
+  - component: {fileID: 963099224}
   m_Layer: 0
   m_Name: Cactus C (8)
   m_TagString: Untagged
@@ -9174,18 +9266,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963099221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963099219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &963099222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9291,6 +9371,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &963099224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963099219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &965161199
 GameObject:
   m_ObjectHideFlags: 0
@@ -9393,7 +9486,7 @@ GameObject:
   - component: {fileID: 972795017}
   - component: {fileID: 972795020}
   - component: {fileID: 972795019}
-  - component: {fileID: 972795018}
+  - component: {fileID: 972795021}
   m_Layer: 0
   m_Name: Cactus C (9)
   m_TagString: Untagged
@@ -9416,18 +9509,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &972795018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972795016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &972795019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9533,6 +9614,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &972795021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972795016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &977012869
 GameObject:
   m_ObjectHideFlags: 0
@@ -11038,7 +11132,7 @@ GameObject:
   - component: {fileID: 1056265946}
   - component: {fileID: 1056265949}
   - component: {fileID: 1056265948}
-  - component: {fileID: 1056265947}
+  - component: {fileID: 1056265950}
   m_Layer: 0
   m_Name: Cactus A (5)
   m_TagString: Untagged
@@ -11061,18 +11155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1056265947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056265945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1056265948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11178,6 +11260,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1056265950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056265945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1056415120
 GameObject:
   m_ObjectHideFlags: 0
@@ -11817,7 +11912,7 @@ GameObject:
   - component: {fileID: 1088939724}
   - component: {fileID: 1088939727}
   - component: {fileID: 1088939726}
-  - component: {fileID: 1088939725}
+  - component: {fileID: 1088939728}
   m_Layer: 0
   m_Name: Cactus A (9)
   m_TagString: Untagged
@@ -11837,21 +11932,10 @@ Transform:
   m_LocalPosition: {x: 102.1, y: -4.24, z: 0}
   m_LocalScale: {x: 1.6780663, y: 1.5177795, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1171437286}
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.141}
---- !u!114 &1088939725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088939723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1088939726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11957,6 +12041,64 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1088939728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088939723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
+--- !u!1 &1089091257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089091258}
+  - component: {fileID: 1089091259}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1089091258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089091257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1089091259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089091257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58a674d74807a84ebcbc0a5cdd36d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  _barra: {fileID: 0}
 --- !u!1 &1094018155
 GameObject:
   m_ObjectHideFlags: 0
@@ -12395,12 +12537,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171437285}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 56.06, y: -2.81, z: 0}
-  m_LocalScale: {x: 1.4012, y: 0.7249, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7141111, w: 0.7000324}
+  m_LocalPosition: {x: 1.3982396, y: 30.309015, z: 0}
+  m_LocalScale: {x: 0.923152, y: 0.43200165, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 27859354}
+  m_Father: {fileID: 1088939724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1171437287
 MonoBehaviour:
@@ -12633,7 +12775,7 @@ GameObject:
   - component: {fileID: 1197428869}
   - component: {fileID: 1197428872}
   - component: {fileID: 1197428871}
-  - component: {fileID: 1197428870}
+  - component: {fileID: 1197428873}
   m_Layer: 0
   m_Name: Cactus C (6)
   m_TagString: Untagged
@@ -12656,18 +12798,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1197428870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197428868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1197428871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12773,6 +12903,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1197428873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197428868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1199404088
 GameObject:
   m_ObjectHideFlags: 0
@@ -12784,7 +12927,7 @@ GameObject:
   - component: {fileID: 1199404089}
   - component: {fileID: 1199404092}
   - component: {fileID: 1199404091}
-  - component: {fileID: 1199404090}
+  - component: {fileID: 1199404093}
   m_Layer: 0
   m_Name: Cactus C (2)
   m_TagString: Untagged
@@ -12807,18 +12950,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1199404090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199404088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1199404091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12924,6 +13055,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1199404093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199404088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1209987164
 GameObject:
   m_ObjectHideFlags: 0
@@ -17329,7 +17473,7 @@ GameObject:
   - component: {fileID: 1555859975}
   - component: {fileID: 1555859978}
   - component: {fileID: 1555859977}
-  - component: {fileID: 1555859976}
+  - component: {fileID: 1555859979}
   m_Layer: 0
   m_Name: Cactus A (6)
   m_TagString: Untagged
@@ -17352,18 +17496,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1555859976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555859974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1555859977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17469,6 +17601,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1555859979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555859974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1560484007
 GameObject:
   m_ObjectHideFlags: 0
@@ -17480,7 +17625,7 @@ GameObject:
   - component: {fileID: 1560484009}
   - component: {fileID: 1560484008}
   - component: {fileID: 1560484011}
-  - component: {fileID: 1560484010}
+  - component: {fileID: 1560484012}
   m_Layer: 0
   m_Name: Cactus A
   m_TagString: Untagged
@@ -17562,18 +17707,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1560484010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560484007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1560484011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17620,6 +17753,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1560484012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560484007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1563922130
 GameObject:
   m_ObjectHideFlags: 0
@@ -17631,7 +17777,7 @@ GameObject:
   - component: {fileID: 1563922132}
   - component: {fileID: 1563922131}
   - component: {fileID: 1563922134}
-  - component: {fileID: 1563922133}
+  - component: {fileID: 1563922135}
   m_Layer: 0
   m_Name: Cactus B
   m_TagString: Untagged
@@ -17713,18 +17859,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1563922133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563922130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1563922134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17771,6 +17905,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &1563922135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563922130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1567635851
 GameObject:
   m_ObjectHideFlags: 0
@@ -17782,7 +17929,7 @@ GameObject:
   - component: {fileID: 1567635852}
   - component: {fileID: 1567635855}
   - component: {fileID: 1567635854}
-  - component: {fileID: 1567635853}
+  - component: {fileID: 1567635856}
   m_Layer: 0
   m_Name: Cactus B (10)
   m_TagString: Untagged
@@ -17805,18 +17952,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1567635853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567635851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1567635854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17922,6 +18057,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1567635856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567635851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1595849855
 GameObject:
   m_ObjectHideFlags: 0
@@ -18985,7 +19133,7 @@ GameObject:
   - component: {fileID: 1674458895}
   - component: {fileID: 1674458898}
   - component: {fileID: 1674458897}
-  - component: {fileID: 1674458896}
+  - component: {fileID: 1674458899}
   m_Layer: 0
   m_Name: Cactus B (3)
   m_TagString: Untagged
@@ -19008,18 +19156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1674458896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674458894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1674458897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19125,6 +19261,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1674458899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674458894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1718371578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19456,7 +19605,7 @@ GameObject:
   - component: {fileID: 1772208314}
   - component: {fileID: 1772208317}
   - component: {fileID: 1772208316}
-  - component: {fileID: 1772208315}
+  - component: {fileID: 1772208318}
   m_Layer: 0
   m_Name: Cactus A (7)
   m_TagString: Untagged
@@ -19479,18 +19628,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1772208315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772208313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1772208316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19596,6 +19733,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1772208318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772208313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1774620445
 GameObject:
   m_ObjectHideFlags: 0
@@ -19974,7 +20124,7 @@ GameObject:
   - component: {fileID: 1788591839}
   - component: {fileID: 1788591842}
   - component: {fileID: 1788591841}
-  - component: {fileID: 1788591840}
+  - component: {fileID: 1788591843}
   m_Layer: 0
   m_Name: Cactus B (12)
   m_TagString: Untagged
@@ -19997,18 +20147,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1788591840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788591838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1788591841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20114,6 +20252,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1788591843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788591838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1792738634
 GameObject:
   m_ObjectHideFlags: 0
@@ -20125,7 +20276,7 @@ GameObject:
   - component: {fileID: 1792738635}
   - component: {fileID: 1792738638}
   - component: {fileID: 1792738637}
-  - component: {fileID: 1792738636}
+  - component: {fileID: 1792738639}
   m_Layer: 0
   m_Name: Cactus B (9)
   m_TagString: Untagged
@@ -20148,18 +20299,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1792738636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792738634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1792738637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20265,6 +20404,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1792738639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792738634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1800646478
 GameObject:
   m_ObjectHideFlags: 0
@@ -20506,7 +20658,7 @@ GameObject:
   - component: {fileID: 1812054611}
   - component: {fileID: 1812054610}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20523,13 +20675,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1856036107}
+  - {fileID: 850147786}
   m_Father: {fileID: 1195439966}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -652.5475, y: 460.92}
-  m_SizeDelta: {x: 616.5954, y: 36.161}
+  m_AnchoredPosition: {x: -613, y: 454.00027}
+  m_SizeDelta: {x: 639, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1812054610
 MonoBehaviour:
@@ -20544,15 +20698,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15423203, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -5130558894233647175, guid: 5aeae593981c616458bbe90d9d1444c3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -20705,6 +20859,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826271040}
+  m_CullTransparentMesh: 1
+--- !u!1 &1856036106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1856036107}
+  - component: {fileID: 1856036109}
+  - component: {fileID: 1856036108}
+  m_Layer: 5
+  m_Name: Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1856036107
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856036106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.42503, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1812054609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -6.2938232, y: 0.000030517578}
+  m_SizeDelta: {x: 626.4125, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1856036108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856036106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 475947568575757806, guid: ee4bb97400ecdfb4cb82f5e85289c13e, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1856036109
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856036106}
   m_CullTransparentMesh: 1
 --- !u!1 &1859086968
 GameObject:
@@ -20990,7 +21219,7 @@ GameObject:
   - component: {fileID: 1886237715}
   - component: {fileID: 1886237718}
   - component: {fileID: 1886237717}
-  - component: {fileID: 1886237716}
+  - component: {fileID: 1886237719}
   m_Layer: 0
   m_Name: Cactus B (7)
   m_TagString: Untagged
@@ -21013,18 +21242,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1886237716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886237714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1886237717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21130,6 +21347,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1886237719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886237714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1897577975
 GameObject:
   m_ObjectHideFlags: 0
@@ -21963,7 +22193,7 @@ GameObject:
   - component: {fileID: 1974489480}
   - component: {fileID: 1974489483}
   - component: {fileID: 1974489482}
-  - component: {fileID: 1974489481}
+  - component: {fileID: 1974489484}
   m_Layer: 0
   m_Name: Cactus C (3)
   m_TagString: Untagged
@@ -21986,18 +22216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1974489481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974489479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1974489482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22103,6 +22321,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1974489484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974489479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1996394450
 GameObject:
   m_ObjectHideFlags: 0
@@ -22114,7 +22345,7 @@ GameObject:
   - component: {fileID: 1996394451}
   - component: {fileID: 1996394454}
   - component: {fileID: 1996394453}
-  - component: {fileID: 1996394452}
+  - component: {fileID: 1996394455}
   m_Layer: 0
   m_Name: Cactus B (1)
   m_TagString: Untagged
@@ -22137,18 +22368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1996394452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996394450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &1996394453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22254,6 +22473,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1996394455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996394450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2026234201
 GameObject:
   m_ObjectHideFlags: 0
@@ -22403,7 +22635,7 @@ GameObject:
   - component: {fileID: 2028501819}
   - component: {fileID: 2028501822}
   - component: {fileID: 2028501821}
-  - component: {fileID: 2028501820}
+  - component: {fileID: 2028501823}
   m_Layer: 0
   m_Name: Cactus A (1)
   m_TagString: Untagged
@@ -22426,18 +22658,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2028501820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028501818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &2028501821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22543,6 +22763,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2028501823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028501818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2030534509
 GameObject:
   m_ObjectHideFlags: 0
@@ -22554,7 +22787,7 @@ GameObject:
   - component: {fileID: 2030534510}
   - component: {fileID: 2030534513}
   - component: {fileID: 2030534512}
-  - component: {fileID: 2030534511}
+  - component: {fileID: 2030534514}
   m_Layer: 0
   m_Name: Cactus C (7)
   m_TagString: Untagged
@@ -22577,18 +22810,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2030534511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030534509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &2030534512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22694,6 +22915,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2030534514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030534509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2034653861
 GameObject:
   m_ObjectHideFlags: 0
@@ -22705,7 +22939,7 @@ GameObject:
   - component: {fileID: 2034653862}
   - component: {fileID: 2034653865}
   - component: {fileID: 2034653864}
-  - component: {fileID: 2034653863}
+  - component: {fileID: 2034653866}
   m_Layer: 0
   m_Name: Cactus A (3)
   m_TagString: Untagged
@@ -22728,18 +22962,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 27859354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2034653863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034653861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5335de30a2c33fd46be08812a615db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
 --- !u!61 &2034653864
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22845,6 +23067,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2034653866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034653861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dd7f71b5d43544c9c03c3031d649f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2046396874
 GameObject:
   m_ObjectHideFlags: 0
@@ -24086,5 +24321,6 @@ SceneRoots:
   - {fileID: 1353659154}
   - {fileID: 1312960647}
   - {fileID: 1054061238}
-  - {fileID: 1071178008}
   - {fileID: 1195439966}
+  - {fileID: 1089091258}
+  - {fileID: 1071178008}
