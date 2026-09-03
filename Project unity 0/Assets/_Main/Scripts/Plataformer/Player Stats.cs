@@ -8,6 +8,11 @@ public class PlayerStats : MonoBehaviour
     {
         _puntosVIda = _puntosVIda - daño;
 
-        
+    }
+
+    public void SumarVida(int curar)
+    {
+        _puntosVIda = _puntosVIda + curar;
+
     }
 }
