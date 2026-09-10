@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &27859353
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculomortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 0}
 --- !u!1 &30665869
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +715,7 @@ Transform:
   m_GameObject: {fileID: 70259466}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.03, y: -0.2, z: 0}
+  m_LocalPosition: {x: -6.47, y: -0.45, z: 0}
   m_LocalScale: {x: 0.8462, y: 2.2685, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -732,6 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Heal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!70 &70259470
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1012,6 +1015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &90723932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &99433052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,6 +1550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &137322026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2745,6 +2751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &227182276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,6 +4915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &442247620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5060,6 +5068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculomortal
   _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1 &461635581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5532,6 +5541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &550230920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +6930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &713350207
 GameObject:
   m_ObjectHideFlags: 0
@@ -7072,6 +7083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &720912520
 GameObject:
   m_ObjectHideFlags: 0
@@ -7100,7 +7112,7 @@ Transform:
   m_GameObject: {fileID: 720912520}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.8, y: -8.26, z: 0}
+  m_LocalPosition: {x: 89.8, y: -6.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7224,6 +7236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &725175968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,6 +7389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &773899027
 GameObject:
   m_ObjectHideFlags: 0
@@ -7710,6 +7724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &788999425
 GameObject:
   m_ObjectHideFlags: 0
@@ -8226,6 +8241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &818150365
 GameObject:
   m_ObjectHideFlags: 0
@@ -8864,6 +8880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &916305167
 GameObject:
   m_ObjectHideFlags: 0
@@ -9086,6 +9103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   _puntosVida: 100
+  _barra: {fileID: 1856036108}
+  _vidaMaxima: 100
 --- !u!1 &919311548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9238,6 +9257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &928750748
 GameObject:
   m_ObjectHideFlags: 0
@@ -9390,6 +9410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &963099219
 GameObject:
   m_ObjectHideFlags: 0
@@ -9542,6 +9563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &965161199
 GameObject:
   m_ObjectHideFlags: 0
@@ -9785,6 +9807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &977012869
 GameObject:
   m_ObjectHideFlags: 0
@@ -11431,6 +11454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1056415120
 GameObject:
   m_ObjectHideFlags: 0
@@ -12087,7 +12111,7 @@ Transform:
   m_GameObject: {fileID: 1088939723}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7141111, w: 0.7000324}
-  m_LocalPosition: {x: 102.1, y: -4.24, z: 0}
+  m_LocalPosition: {x: 102.09, y: -3.96, z: 0}
   m_LocalScale: {x: 1.6780663, y: 1.5177795, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12211,6 +12235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1089091257
 GameObject:
   m_ObjectHideFlags: 0
@@ -12255,7 +12280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d58a674d74807a84ebcbc0a5cdd36d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  _barra: {fileID: 1812054610}
+  _barra: {fileID: 1856036108}
 --- !u!1 &1094018155
 GameObject:
   m_ObjectHideFlags: 0
@@ -12819,6 +12844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1195439962
 GameObject:
   m_ObjectHideFlags: 0
@@ -13074,6 +13100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1199404088
 GameObject:
   m_ObjectHideFlags: 0
@@ -13226,6 +13253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1209987164
 GameObject:
   m_ObjectHideFlags: 0
@@ -17772,6 +17800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1560484007
 GameObject:
   m_ObjectHideFlags: 0
@@ -17924,6 +17953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1563922130
 GameObject:
   m_ObjectHideFlags: 0
@@ -18011,7 +18041,7 @@ Transform:
   m_GameObject: {fileID: 1563922130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.13, y: -1.36, z: 0}
+  m_LocalPosition: {x: -2.89, y: -1.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18076,6 +18106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1567635851
 GameObject:
   m_ObjectHideFlags: 0
@@ -18228,6 +18259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1595849855
 GameObject:
   m_ObjectHideFlags: 0
@@ -19432,6 +19464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1718371578
 GameObject:
   m_ObjectHideFlags: 0
@@ -19904,6 +19937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1774620445
 GameObject:
   m_ObjectHideFlags: 0
@@ -20423,6 +20457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1792738634
 GameObject:
   m_ObjectHideFlags: 0
@@ -20575,6 +20610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1800646478
 GameObject:
   m_ObjectHideFlags: 0
@@ -21550,6 +21586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1897577975
 GameObject:
   m_ObjectHideFlags: 0
@@ -22524,6 +22561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &1996394450
 GameObject:
   m_ObjectHideFlags: 0
@@ -22676,6 +22714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &2026234201
 GameObject:
   m_ObjectHideFlags: 0
@@ -22966,6 +23005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &2030534509
 GameObject:
   m_ObjectHideFlags: 0
@@ -23118,6 +23158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &2034653861
 GameObject:
   m_ObjectHideFlags: 0
@@ -23270,6 +23311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 1089091259}
 --- !u!1 &2046396874
 GameObject:
   m_ObjectHideFlags: 0
