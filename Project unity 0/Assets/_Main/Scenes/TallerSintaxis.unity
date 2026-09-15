@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da08b5f2818b03f40b8af4a4af222d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Healing
-  _puntosVIda: 100
   _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1 &7134604
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &7134607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -869,6 +870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &88086962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1112,6 +1114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &92452450
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1402,6 +1405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &104939602
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2739,6 +2743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &225307839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5080,6 +5085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &422616954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5229,7 +5235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6596bb101e724383bbd8abda79f42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  barra: {fileID: 665268986}
+  _barra: {fileID: 665268986}
 --- !u!1 &442247620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5748,6 +5754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &486760792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7211,6 +7218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &709228050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7363,6 +7371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &713350210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7515,6 +7524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &720912523
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7667,6 +7677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &725175971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8080,6 +8091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &786144433
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8596,6 +8608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &806243699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9159,6 +9172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &903219536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9469,7 +9483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movimientojugador
   movimientoJugador: {fileID: 0}
-  _fuerzaSalto: 2
+  _fuerzaSalto: 1
   _velocidadMovimiento: 4
   _cuerpoRigido2D: {fileID: 0}
   _detectorSuelo: {fileID: 1595849859}
@@ -9485,7 +9499,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1edd113a5de604c48b206128d20c0795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  _puntosVIda: 100
+  _puntosVidaActuales: 100
+  _puntosVidaMaximo: 100
+  _uiManager: {fileID: 441479736}
 --- !u!1 &919311548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,6 +9549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &919311551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9744,6 +9761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &928750752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9837,6 +9855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &963099222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10080,6 +10099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &972795019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11726,6 +11746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1056265948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12427,6 +12448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1088939726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12727,8 +12749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da08b5f2818b03f40b8af4a4af222d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Healing
-  _puntosVIda: 100
   _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1 &1136003033
 GameObject:
   m_ObjectHideFlags: 0
@@ -13096,6 +13118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1171437288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13248,6 +13271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1197428871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13400,6 +13424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1199404091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17946,6 +17971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1555859977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18157,6 +18183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1560484011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18309,6 +18336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1563922134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18402,6 +18430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1567635854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19606,6 +19635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1674458897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20078,6 +20108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1772208316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20597,6 +20628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1788591841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20749,6 +20781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1792738637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21403,6 +21436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1886237717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22377,6 +22411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1974489482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22587,8 +22622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da08b5f2818b03f40b8af4a4af222d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Healing
-  _puntosVIda: 100
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1983214938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22682,6 +22717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &1996394453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23049,6 +23085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &2028501821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23201,6 +23238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &2030534512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23353,6 +23391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrap
   _playerStats: {fileID: 916305175}
+  _uiManager: {fileID: 441479736}
 --- !u!61 &2034653864
 BoxCollider2D:
   m_ObjectHideFlags: 0

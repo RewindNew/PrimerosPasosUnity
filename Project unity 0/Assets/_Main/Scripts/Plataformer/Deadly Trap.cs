@@ -18,17 +18,12 @@ public class DeadlyTrap : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             _playerStats.RestarVida(10);
-            _uiManager.RestarFillAmount(0.1f);
+            _uiManager.RestarFillAmount(0.2f);
         }
 
     }
 
-    void Start()
-    {
-        
-    }
-
- 
+     
     void Update()
     {
         
