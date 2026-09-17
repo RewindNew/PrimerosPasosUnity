@@ -2,7 +2,7 @@
 - Project name: Project unity 0
 - Unity version: Unity 6000.3.20f1
 - Active game object:
-  - Name: Diinosaur
-  - Tag: Player
+  - Name: GameManager
+  - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
