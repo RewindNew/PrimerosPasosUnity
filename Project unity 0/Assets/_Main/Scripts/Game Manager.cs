@@ -1,8 +1,17 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private PlayerStats _playerStats;
+
+    private void Start()
+    {
+        ReanudarElJuego();
+    }
+
     public void CargarEscena(int scene)
     {
         SceneManager.LoadScene(scene);

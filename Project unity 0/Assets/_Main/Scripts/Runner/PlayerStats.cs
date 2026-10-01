@@ -6,6 +6,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int _puntosVidaActuales = 100;
     [SerializeField] private int _vidaMaxima = 100;
     [SerializeField] private Image _barra;
+
+    [SerializeField] private GameManager _gameManager;
  
     public void RestarVida(int daño)
     {
@@ -43,10 +45,9 @@ public class PlayerStats : MonoBehaviour
             _barra.color = Color.red;
         }
 
-
-        if(_barra.fillAmount <= 0.0f)
+        if (_barra.fillAmount <= 0.0f)
         {
-            Destroy(this.gameObject);
+            _gameManager.PausarElJuego();
         }
 
     }

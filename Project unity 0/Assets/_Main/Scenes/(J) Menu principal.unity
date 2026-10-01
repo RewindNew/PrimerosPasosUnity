@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1329ec3e239a50d4e82fe0d29ac6dac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _playerStats: {fileID: 0}
 --- !u!1 &569763321207785367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7395914336026793225, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
@@ -413,6 +414,10 @@ PrefabInstance:
     - target: {fileID: 7395914336026793225, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
       propertyPath: m_Name
       value: Panel Fondo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547531686722238043, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7797853954644642205, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -527,7 +532,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5961697917724830258, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5178fec4f1aec58429c3322684ef4983, type: 3}
