@@ -1,23 +1,20 @@
 using UnityEngine;
 
-public class DeadlyTrap : MonoBehaviour
+public class Victoryorder : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
     [SerializeField] private UIManager _uiManager;
-    [SerializeField] private int _GameManager;
+    [SerializeField] private GameManager _GameManager;
+    [SerializeField] private GameObject _panelOfvictory;
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            _playerStats.RestarVida(10); 
-            _uiManager.RestarFillAmount(0.2f);
+            _GameManager.PausarElJuego();
+            _panelOfvictory.SetActive(true);
         }
     }
 
-
-    void Update()
-    {
-        
-    }
 }

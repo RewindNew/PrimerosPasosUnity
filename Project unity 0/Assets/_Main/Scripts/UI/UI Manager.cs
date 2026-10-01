@@ -4,6 +4,11 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private Image _barra;
+    [SerializeField] private PlayerStats _playerStats;
+    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private GameManager _GameManager;
+    [SerializeField] private GameObject _panelOfvictory;
+
     public void SumarFillAmount(float amount)
     {
         _barra.fillAmount = _barra.fillAmount + amount;
@@ -20,6 +25,5 @@ public class UIManager : MonoBehaviour
         _barra.color = mycolor;
     }
 
-
-
+  
 }

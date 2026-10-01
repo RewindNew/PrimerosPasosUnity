@@ -25,7 +25,6 @@ public class PlayerStats : MonoBehaviour
     }
 
 
-
     private void Update()
     {
         if (_puntosVidaActuales >= 80)
