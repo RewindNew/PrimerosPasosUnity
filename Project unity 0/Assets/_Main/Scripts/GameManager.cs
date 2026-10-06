@@ -3,8 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int _puntosVidaActuales = 100;
+    [SerializeField] public int _puntosVidaActuales = 100;
     [SerializeField] private GameObject _panelOfDeath;
+    [SerializeField] private PlayerStats _playerStats;
+
+    private void Start()
+    {
+        ReanudarElJuego();
+    }
 
     public void CargarEscena(int scene)
     {
@@ -28,12 +34,6 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void LoadgameObject()
-    {
-        if (_puntosVidaActuales <= 0)
-        {
-            _panelOfDeath.SetActive(true);
-        }
-    }
+  
 
 }

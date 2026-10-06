@@ -4,10 +4,10 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private Image _barra;
-    [SerializeField] private PlayerStats _playerStats;
-    [SerializeField] private UIManager _uiManager;
-    [SerializeField] private GameManager _GameManager;
-    [SerializeField] private GameObject _panelOfvictory;
+
+    [SerializeField] private GameManager _gameManager;
+    private GameManager puntosvida;
+    [SerializeField] private GameObject _panelOfDeath;
 
     public void SumarFillAmount(float amount)
     {
@@ -25,5 +25,11 @@ public class UIManager : MonoBehaviour
         _barra.color = mycolor;
     }
 
-  
+    public void Update()
+    {
+        if (_gameManager._puntosVidaActuales <= 0)
+        {
+            _panelOfDeath.SetActive(true);
+        }
+    }
 }
